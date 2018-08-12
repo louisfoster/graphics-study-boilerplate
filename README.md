@@ -4,9 +4,11 @@ boilerplate for testing new ideas, doing tutorials etc. with opengl and sdl2
 
 ## Notes
 
-- Top level resources directory should be used for shaders, images, etc.
+- Create a `Build` dir in the top level for output of compiled code
+  - Run app from root dir with `./Build/app`
+- Create a `Resources` dir in the top level
+  - Top level resources directory should be used for shaders, images, etc.
 - Use `cmd + shift + B` from root dir to compile to the build dir
-- Run app from root dir with `./Build/app`
 
 ## Req
 
